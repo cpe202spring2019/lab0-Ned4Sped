@@ -5,7 +5,7 @@ def weight_on_planets():
       print('')
 
       #change weight to an int
-      earth_weight = int(earth_weight_string)
+      earth_weight = float(earth_weight_string)
 
       #calc weight on other planets
       mars_weight = 0.38 * earth_weight
